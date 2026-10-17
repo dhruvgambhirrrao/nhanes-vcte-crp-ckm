@@ -1,0 +1,12 @@
+{
+  "initial_analytic_cohort": 13119,
+  "step1_has_vcte_record": 13119,
+  "step2_complete_vcte_exam": 11604,
+  "step3_positive_smed_capm": 11603,
+  "step4_ge10_valid_measures": 11603,
+  "step5_reliable_iqrm_le30pct": 11603,
+  "step6_nonmissing_hscrp_final": 11585,
+  "excluded_incomplete_vcte": 1515,
+  "excluded_unreliable_vcte": 1,
+  "excluded_missing_hscrp": 18
+}

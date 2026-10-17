@@ -1,0 +1,13 @@
+# Reproducibility Archive: Direct VCTE FibroScan + hs-CRP in Advanced CKM Syndrome
+# Python >= 3.11 Environment Requirements
+
+pandas>=2.0.0
+numpy>=1.24.0
+scipy>=1.11.0
+statsmodels>=0.14.0
+patsy>=0.5.3
+matplotlib>=3.7.0
+pillow>=10.0.0
+python-docx>=1.1.0
+python-pptx>=1.0.0
+requests>=2.31.0

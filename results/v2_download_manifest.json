@@ -1,0 +1,74 @@
+{
+  "P_LUX.xpt": {
+    "filename": "P_LUX.xpt",
+    "path": "data\\P_LUX.xpt",
+    "size_bytes": 1105920,
+    "sha256": "0a8625bf308e2ae4ea36f7518d8532f058609b9d39ce86cb0642d306b23adced",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_LUX.xpt",
+    "verified": true,
+    "rows": 10409,
+    "cols": 13
+  },
+  "LUX_L.xpt": {
+    "filename": "LUX_L.xpt",
+    "path": "data\\LUX_L.xpt",
+    "size_bytes": 765680,
+    "sha256": "40e49c5f1b58054e4787cd59cdeb224cd7658784b760274c3449bd4c1eb64c34",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/LUX_L.xpt",
+    "verified": true,
+    "rows": 7199,
+    "cols": 13
+  },
+  "P_HSCRP.xpt": {
+    "filename": "P_HSCRP.xpt",
+    "path": "data\\P_HSCRP.xpt",
+    "size_bytes": 331760,
+    "sha256": "e6954d17afa70755c26004bda6d4f0b256a5f30b0620cb70fdd6f520147218e1",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2017/DataFiles/P_HSCRP.xpt",
+    "verified": true,
+    "rows": 13772,
+    "cols": 3
+  },
+  "HSCRP_L.xpt": {
+    "filename": "HSCRP_L.xpt",
+    "path": "data\\HSCRP_L.xpt",
+    "size_bytes": 280560,
+    "sha256": "c56098d7c33509087a4645dfdf39936c14213d9123e1e718831a10d5bc4e3a1b",
+    "url": "https://wwwn.cdc.gov/Nchs/Data/Nhanes/Public/2021/DataFiles/HSCRP_L.xpt",
+    "verified": true,
+    "rows": 8727,
+    "cols": 4
+  },
+  "P_LUX.htm": {
+    "filename": "P_LUX.htm",
+    "path": "sources\\P_LUX.htm",
+    "size_bytes": 20905,
+    "sha256": "a6b66cdebef567c41fa89c8ee3a601dac20060d81d83738b60efcd680b7ecb93",
+    "url": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/P_LUX.htm",
+    "verified": true
+  },
+  "LUX_L.htm": {
+    "filename": "LUX_L.htm",
+    "path": "sources\\LUX_L.htm",
+    "size_bytes": 20905,
+    "sha256": "a6b66cdebef567c41fa89c8ee3a601dac20060d81d83738b60efcd680b7ecb93",
+    "url": "https://wwwn.cdc.gov/Nchs/Nhanes/2021-2022/LUX_L.htm",
+    "verified": true
+  },
+  "P_HSCRP.htm": {
+    "filename": "P_HSCRP.htm",
+    "path": "sources\\P_HSCRP.htm",
+    "size_bytes": 20905,
+    "sha256": "a6b66cdebef567c41fa89c8ee3a601dac20060d81d83738b60efcd680b7ecb93",
+    "url": "https://wwwn.cdc.gov/Nchs/Nhanes/2017-2018/P_HSCRP.htm",
+    "verified": true
+  },
+  "HSCRP_L.htm": {
+    "filename": "HSCRP_L.htm",
+    "path": "sources\\HSCRP_L.htm",
+    "size_bytes": 20905,
+    "sha256": "a6b66cdebef567c41fa89c8ee3a601dac20060d81d83738b60efcd680b7ecb93",
+    "url": "https://wwwn.cdc.gov/Nchs/Nhanes/2021-2022/HSCRP_L.htm",
+    "verified": true
+  }
+}

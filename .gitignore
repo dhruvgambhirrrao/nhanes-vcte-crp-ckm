@@ -1,0 +1,17 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Environment
+.env
+.venv/
+env/
+venv/

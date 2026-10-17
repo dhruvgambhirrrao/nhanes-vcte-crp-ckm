@@ -1,0 +1,19 @@
+{
+  "n": 7043,
+  "n_events_advanced_ckm": 1246,
+  "mean_kpa_log2": 2.387616120314428,
+  "sd_kpa_log2": 0.5952515970405342,
+  "mean_cap": 269.52146683408023,
+  "sd_cap": 61.60907992801681,
+  "mean_hscrp_log2": 0.8109867555725244,
+  "sd_hscrp_log2": 1.6919267357606538,
+  "hscrp_t3_cutoff": 2.998838,
+  "vcte_prevalence_ge8": 0.10494905194832269,
+  "hscrp_prevalence_ge2": 0.4563964226853036,
+  "joint_group_counts": {
+    "0": 3416,
+    "1": 2810,
+    "2": 283,
+    "3": 534
+  }
+}

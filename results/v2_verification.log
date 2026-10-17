@@ -1,0 +1,65 @@
+=== Running Study 2.0 Biostatistical Compliance Audit ===
+  [PASS] File verified: MANUSCRIPT_FULL_JGIM_NMCD.md (37,765 bytes)
+  [PASS] File verified: COVER_LETTER_AND_ZERO_FEE_SUBMISSION_GUIDE.md (9,441 bytes)
+  [PASS] File verified: Table_1_Baseline.md (7,660 bytes)
+  [PASS] File verified: Table_2_Multivariable_Joint_Models.md (1,720 bytes)
+  [PASS] File verified: Table_3_VCTE_vs_FIB4_Diagnostic_Comparison.md (1,819 bytes)
+  [PASS] File verified: statistical_output_v2.json (450,992 bytes)
+  [PASS] File verified: v2_cohort_metadata.json (497 bytes)
+  [PASS] File verified: v2_strobe_waterfall.json (368 bytes)
+  [PASS] File verified: figure_1_vcte_crp_forest.png (1,033,118 bytes)
+  [PASS] File verified: figure_1_vcte_crp_forest.tiff (2,590,988 bytes)
+  [PASS] File verified: figure_1_vcte_crp_forest.eps (122,779 bytes)
+  [PASS] File verified: figure_2_vcte_vs_fib4_diagnostic.png (1,005,279 bytes)
+  [PASS] File verified: figure_2_vcte_vs_fib4_diagnostic.tiff (3,143,638 bytes)
+  [PASS] File verified: figure_2_vcte_vs_fib4_diagnostic.eps (102,900 bytes)
+  [PASS] Cohort sample size and events verified (N=7,043, Events=1,246).
+  [PASS] Population prevalences verified: Advanced CKM 13.8%, VCTE 10.5%, hs-CRP 45.6%.
+  [PASS] Model 2 co-primary verified: G1=1.26, G2=0.85, G3=2.01, RERI=0.91, mult_p=0.0185.
+  [PASS] Model 3 verified: G3=1.71, RERI=0.76.
+  [PASS] Secondary outcomes verified: CVD OR=1.50, CKD OR=2.36.
+  [PASS] Diagnostic performance verified: Sens=34.8%, Spec=75.8%, PPV=14.5%, FPR Young=14.3%, FPR Old=63.8%.
+  [PASS] Abstract body word count: 291 words (JGIM/NMCD Limit: <= 300 words).
+  [PASS] Tables 1, 2, and 3 structure verified.
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:278: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['log2_fib4'] = np.log2(np.maximum(0.1, d['fib4']))
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:282: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['log2_fib4_z'] = (d['log2_fib4'] - mean_fib4) / sd_fib4
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:335: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['ckm_stage_4'] = (d.ckm_stage == 4).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:360: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d['high_hscrp_raw'] = (d.hscrp_raw >= 2.0).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+C:\Users\dhruv\Downloads\Own_Research-20261003T180254Z-1-001\sgim_2027_submission\v2_elastography_manuscript\v2_03_statistical_analysis.py:210: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead. To get a de-fragmented frame, use `newframe = frame.copy()`
+  d[col] = d[cat_name].eq(val).astype(int)
+  [PASS] Full raw demographic universe, df=40, inherited assay bridges, WTPH2YR, both cohorts, all saved models/SEs/CIs/interactions, diagnostics/AUC and Table 1 estimates recomputed.
+  [PASS] Every table cell and declared manuscript study-result locations match; original JSON unchanged.
+
+=== NUMERICAL AUDIT PASSED; NOT SCIENTIFIC OR SUBMISSION CERTIFICATION ===

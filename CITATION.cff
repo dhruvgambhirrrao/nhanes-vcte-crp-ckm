@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this dataset, analytic code, or findings in your research, please cite it as below."
+title: "Direct Physical Vibration-Controlled Transient Elastography vs. Formula-Based FIB-4 and High-Sensitivity C-Reactive Protein in Advanced Cardiovascular-Kidney-Metabolic Syndrome: A Nationally Representative Complex Survey Cohort Study (NHANES 2017–2023)"
+version: 2.3.0
+doi: 10.5281/zenodo.14022838
+date-released: 2026-10-16
+url: "https://github.com/dhruvgambhirrrao/nhanes-vcte-crp-ckm"
+repository-code: "https://github.com/dhruvgambhirrrao/nhanes-vcte-crp-ckm"
+license: MIT
+authors:
+  - family-names: Gambhirrao
+    given-names: Dhruv
+    email: dhruvgambhirrao@my.unt.edu
+    affiliation: "Department of Biological Sciences, University of North Texas, Denton, TX, USA"
+  - family-names: Ghuman
+    given-names: Devpal
+    email: dsg3583@gmail.com
+    affiliation: "Department of Biological Sciences, University of North Texas, Denton, TX, USA"
+  - family-names: Achar
+    given-names: Tarun
+    email: tarunah.achar@gmail.com
+    affiliation: "Department of Biological Sciences, University of North Texas, Denton, TX, USA"
+keywords:
+  - "Cardiovascular-Kidney-Metabolic (CKM) Syndrome"
+  - "Vibration-Controlled Transient Elastography (VCTE)"
+  - "FibroScan"
+  - "High-Sensitivity C-Reactive Protein (hs-CRP)"
+  - "Fibrosis-4 (FIB-4) Index"
+  - "Biological Synergism (RERI)"
+  - "Complex Survey Design"
+  - "NHANES"
