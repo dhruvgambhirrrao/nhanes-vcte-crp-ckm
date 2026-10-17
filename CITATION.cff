@@ -2,7 +2,6 @@ cff-version: 1.2.0
 message: "If you use this dataset, analytic code, or findings in your research, please cite it as below."
 title: "Direct Physical Vibration-Controlled Transient Elastography vs. Formula-Based FIB-4 and High-Sensitivity C-Reactive Protein in Advanced Cardiovascular-Kidney-Metabolic Syndrome: A Nationally Representative Complex Survey Cohort Study (NHANES 2017–2023)"
 version: 2.3.0
-doi: 10.5281/zenodo.14022838
 date-released: 2026-10-16
 url: "https://github.com/dhruvgambhirrrao/nhanes-vcte-crp-ckm"
 repository-code: "https://github.com/dhruvgambhirrrao/nhanes-vcte-crp-ckm"

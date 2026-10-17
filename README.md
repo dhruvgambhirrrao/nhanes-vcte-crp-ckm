@@ -1,6 +1,6 @@
 # Reproducibility Archive: Direct Physical Vibration-Controlled Transient Elastography vs. Formula-Based FIB-4 and High-Sensitivity C-Reactive Protein in Advanced CKM Syndrome (NHANES 2017–2023)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14022838.svg)](https://doi.org/10.5281/zenodo.14022838)
+[![GitHub Release](https://img.shields.io/github/v/release/dhruvgambhirrrao/nhanes-vcte-crp-ckm?include_prereleases&color=blue)](https://github.com/dhruvgambhirrrao/nhanes-vcte-crp-ckm)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Survey Design: df=40](https://img.shields.io/badge/Survey%20Design-df%3D40-success.svg)]()
@@ -197,7 +197,6 @@ To cite this repository or study:
   journal={Journal of General Internal Medicine / NMCD (Under Review)},
   year={2026},
   version={2.3.0},
-  doi={10.5281/zenodo.14022838},
   url={https://github.com/dhruvgambhirrrao/nhanes-vcte-crp-ckm}
 }
 ```
